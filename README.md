@@ -11,7 +11,6 @@ The Pico enumerates as a vendor-specific USB device; the `host/eeio.py` tool rea
 | `eeio_proto.c/.h` | Command protocol (INFO / READ / WRITE) on top of an abstract packet link. No USB or hardware dependencies. |
 | `main.c`, `usb_common.h`, `dev_lowlevel.h` | Low-level USB device stack (from pico-examples) and the glue that connects it to `eeio_serve()`. |
 | `host/eeio.py` | Host tool (Python 3, pyusb). |
-| `test/` | Hardware-free tests (see below). |
 
 ## Wiring
 
